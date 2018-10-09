@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Connexion</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+<body>
+<div id="connexion-titre">
+    <h1 class="titre">Bonjour <span class="titre-span">andrew</span> vous êtes connecté</h1>
+</div>
+<div id="connexion-formulaire">
+
+    <form method="post" action="connexion.html">
+        <legend>formulaire de connexion</legend>
+        <fieldset>
+            <label for="login">login : </label>
+            <input type="text" placeholder="login" id="login" name="login"/><br/><br/>
+            <label for="mdp">mdp : </label>
+            <input type="password" placeholder="mdp" id="mdp" name="mdp" /><br/><br/>
+            <input type="number" placeholder="number" id="number" name="number"/><br/><br/>
+            <input type="date" placeholder="date" id="date" name="date"/><br/><br/>
+            <label for="color"></label><input type="color" id="color" name="color"/><br/><br/>
+            <input type="submit" onclick="f();"/>
+        </fieldset>
+    </form>
+</div>
+<div id="retour-accueil">
+    <a href="../index.html">revenir à l'accueil</a>
+</div>
+<script>
+
+   function f() {
+       console.log("Appel de la fonction f " + document.getElementById("mdp").value);
+       alert(document.getElementById("mdp").value );
+   }
+</script>
+</body>
+</html>

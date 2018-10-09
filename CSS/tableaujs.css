@@ -1,0 +1,23 @@
+h1{
+    display: block;
+    margin-right: 5%;
+    color: black;
+}
+
+table, td, th, tr{
+    border: 1px solid cornflowerblue;
+    color: blue;
+    border-collapse: collapse;
+    font-size: medium;
+    font-family: "Comic Sans MS";
+    font-size: medium;
+    text-align: center;
+    caption-side: initial;
+
+}
+
+.echec{
+    background-color: black;
+}
+
+

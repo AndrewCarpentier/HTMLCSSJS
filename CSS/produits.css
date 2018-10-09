@@ -1,0 +1,61 @@
+#produits-titre{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    margin-right: 45%;
+    margin-left: 45%;
+    font-family: "Comic Sans MS";
+}
+
+#produits-container-image{
+    bottom: 20px;
+    position: relative;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin-top: 3%;
+    border: white 3px solid;
+
+}
+img:hover{
+    border: navy 3px solid;
+}
+
+.prix{
+    position: absolute;
+    top: 0%;
+    right: 1%;
+    background-color: navy;
+    opacity: 0.6;
+    color: white;
+    font-family: "Comic Sans MS";
+}
+
+.containerimg {
+    position: relative;
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.nom-produit{
+    position: center;
+    background-color: navy;
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+.retour-index a{
+    background-color: navy;
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+    font-family: "Comic Sans MS";
+}

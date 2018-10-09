@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Evenement</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/evenement.css"/>
+</head>
+<body>
+<div>
+    <h1 id="titre">Gestion des Evenements</h1>
+</div>
+<div>
+    <button id="buttonRouge" onclick="changeColor('lightcoral', 'white')">Rouge</button>
+    <button id="buttonBleu" onclick="changeColor('lightblue', 'white')">Bleu</button>
+    <button id="buttonVert" onclick="changeColor('lightgreen', 'white')">Vert</button>
+    <button id="buttonJaune" onclick="changeColor('yellow', 'gray')">Jaune</button>
+    <button id="buttonRose" onclick="changeColor('lightpink', 'gray')">Rose</button>
+    <button id="buttonOrange" onclick="changeColor('lightsalmon', 'white')">Orange</button>
+    <button id="buttonNoir" onclick="changeColor('black', 'white')">Noir</button>
+    <button id="buttonBlanc" onclick="changeColor('white', 'gray')">Blanc</button>
+</div>
+
+<div id="container">
+    <div id="miniContainer">
+        <img id="chevre" class="miniContainerImg" src="../img/chevre.jpg" alt="Une chevre"/>
+        <span class="texte">Une chevre</span>
+        <img id="chevre2" class="miniContainerImg" src="../img/chevre2.jpg" alt="Une chevre qui saute dans la prairie"/>
+        <span class="texte">Une chevre qui saute dans la prairie</span>
+        <img id="ours" class="miniContainerImg" src="../img/ours.jpg" alt="Un ours qui nage"/>
+        <span class="texte">Un ours qui nage</span>
+        <img id="caneton" class="miniContainerImg" src="../img/caneton.jpg" alt="Deux caneton"/>
+        <span class="texte">Deux caneton</span>
+        <img id="ballonMaisonCiel" class="miniContainerImg" src="../img/ballonmaisonciel.jpg" alt="Maison dans le ciel suspendu à des ballons"/>
+        <span class="texte">Maison dans le ciel suspendu à des ballons</span>
+        <img id="volcan" class="miniContainerImg" src="../img/volcan.jpg" alt="Volcan en eruption"/>
+        <span class="texte">Volcan en eruption</span>
+        <img id="chiot" class="miniContainerImg" src="../img/chiot.jpg" alt="Chiot"/>
+        <span class="texte">Chiot</span>
+        <img id="chat" class="miniContainerImg" src="../img/chatvacance.jpg" alt="Chat sur un transat à la plage"/>
+        <span class="texte">Chat sur un transat à la plage</span>
+    </div>
+
+    <img id="arrowLeft" src="../img/arrowleft.png" alt="arrow left" onclick="arrow(-1)"/>
+    <img id="arrowRight" src="../img/arrowright.png" alt="arrow right" onclick="arrow(1)"/>
+
+    <div id="containerMultiple">
+        <img src="../img/chevre.jpg" alt="Une chevre" name="chevre" onclick="numeroSlide(1)"/>
+        <img src="../img/chevre2.jpg" alt="Une chevre qui saute dans la prairie" name="chevre2" onclick="numeroSlide(2)"/>
+        <img src="../img/ours.jpg" alt="Un ours qui nage" onclick="numeroSlide(3)"/>
+        <img src="../img/caneton.jpg" alt="Deux caneton" onclick="numeroSlide(4)"/>
+        <img src="../img/ballonmaisonciel.jpg" alt="Maison dans le ciel suspendu à des ballons" onclick="numeroSlide(5)"/>
+        <img src="../img/volcan.jpg" alt="Volcan en eruption" onclick="numeroSlide(6)"/>
+        <img src="../img/chiot.jpg" alt="Chiot" onclick="numeroSlide(7)"/>
+        <img src="../img/chatvacance.jpg" alt="chat sur un transat à la plage" onclick="numeroSlide(8)"/>
+    </div>
+</div>
+
+<script rel="script" type="application/javascript" src="../js/evenement.js"></script>
+</body>
+</html>

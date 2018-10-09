@@ -1,0 +1,62 @@
+form{
+    width: 400px;
+    height: auto;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-top: 5%;
+    color: blue;
+}
+
+fieldset div{
+    margin-top: 3%;
+}
+
+fieldset{
+    border: lightblue 2px solid;
+    opacity: 1;
+    width: 50%;
+}
+legend{
+    color: blue;
+    background-color: lightblue;
+}
+.submit-reset{
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.submit-reset input{
+    background-color: lightblue;
+    border: none;
+    color: blue;
+    padding: 6px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.body input{
+    width: 100%;
+    margin-inside: 5;
+    border: lightblue 2px solid;
+    border-radius: 10%;
+
+}
+
+.body select{
+    width: 100%;
+    border: lightblue 2px solid;
+    border-radius: 10%;
+}
+
+.body textarea{
+    width: 100%;
+    border: lightblue 2px solid;
+    border-radius: 10%;
+}
+
+
