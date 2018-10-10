@@ -389,8 +389,12 @@
                         </select>
                     </div>
                     <div>
-                        <label for="mail">Email : </label><br/>
-                        <input type="email" name="mail" id="mail" placeholder="email">
+                        <label for="email">Email : </label><br/>
+                        <input type="email" name="email" id="email" placeholder="email"/>
+                    </div>
+                    <div>
+                        <label for="telephone">Telephone : </label><br/>
+                        <input type="tel" name="telephone" id="telephone" placeholder="telephone"/>
                     </div>
                     <div>
                         <label for="comment">Commentaire : </label><br/>
@@ -400,7 +404,7 @@
             </fieldset>
             <div>
                 <div class="submit-reset">
-                    <input type="submit" id="submit" name="submit"/>
+                    <button type="button" id="submit" name="submit" onclick="validerFormulaire()">Envoyer</button>
                 </div>
                 <div class="submit-reset">
                     <input type="reset" id="reset" name="reset"/>
@@ -408,6 +412,6 @@
             </div>
         </form>
     </div>
-
+<script rel="script" type="application/javascript" src="../js/inscription.js"></script>
 </body>
 </html>

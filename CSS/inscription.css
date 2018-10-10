@@ -39,24 +39,35 @@ legend{
     border-radius: 10%;
 }
 
-.body input{
-    width: 100%;
-    margin-inside: 5;
-    border: lightblue 2px solid;
-    border-radius: 10%;
-
-}
-
-.body select{
-    width: 100%;
-    border: lightblue 2px solid;
-    border-radius: 10%;
-}
-
-.body textarea{
-    width: 100%;
-    border: lightblue 2px solid;
+.submit-reset button{
+    background-color: lightblue;
+    border: none;
+    color: blue;
+    padding: 6px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
     border-radius: 10%;
 }
+.body .erreur{
+    border: lightcoral 2px solid;
+}
 
+.body input, .body select, .body textarea{
+    width: 100%;
+    border: lightblue 2px solid;
+    border-radius: 10%;
+}
+
+::placeholder, #departements, #pays, #datedenaissance{
+    color: dodgerblue;
+    opacity: 0.5;
+}
+
+input, textarea{
+    color: dodgerblue;
+    opacity: 0.8;
+}
 
