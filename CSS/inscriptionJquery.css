@@ -1,0 +1,74 @@
+form{
+    width: 400px;
+    height: auto;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-top: 5%;
+    color: blue;
+}
+
+fieldset div{
+    margin-top: 3%;
+}
+
+fieldset{
+    border: lightblue 2px solid;
+    opacity: 1;
+    width: 50%;
+}
+legend{
+    color: blue;
+    background-color: lightblue;
+}
+.submit-reset{
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.submit-reset input{
+    background-color: lightblue;
+    border: none;
+    color: blue;
+    padding: 6px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.submit-reset button{
+    background-color: lightblue;
+    border: none;
+    color: blue;
+    padding: 6px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.body input, .body select, .body textarea{
+    width: 100%;
+    border: lightblue 2px solid;
+    border-radius: 10%;
+}
+
+::placeholder, #departements, #pays, #datedenaissance{
+    color: dodgerblue;
+    opacity: 0.5;
+}
+
+input, textarea{
+    color: dodgerblue;
+    opacity: 0.8;
+}
+
+.body .erreur{
+    border: lightcoral 2px solid;
+}
+

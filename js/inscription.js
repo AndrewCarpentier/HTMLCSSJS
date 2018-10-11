@@ -139,8 +139,8 @@ function verificationTelephone() {
     console.log("Appel de la fonction verificationTelephone");
     var x = document.getElementById("telephone");
     var telephone = x.value;
-    var chiffre = String(telephone);
-    chiffre = chiffre.replace(/[^0-9]/g, ''); //remplace les caractere par autre que 0 et 9 par ''
+    var chiffre = String(telephone).replace(/[^0-9]/g, '');
+ //remplace les caractere par autre que 0 et 9 par ''
     if(chiffre.trim().length === 10){
         x.classList.remove("erreur");
         validationTelephone = true;
